@@ -1,0 +1,2 @@
+# study_record_preliminary_version
+qt的study_record的初版本，后面会再优化以及加新内容的
