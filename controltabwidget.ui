@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>controltabwidget</class>
+ <widget class="QWidget" name="controltabwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>890</width>
+    <height>496</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#controltabwidget{
+background-color:#1F1F1F;
+}
+border:0;</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,1">
+     <item>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="styleSheet">
+        <string notr="true">QWidget#tab_2{
+background-color:#1F1F1F;
+}
+QWidget#tabBanna{
+background-color:#1F1F1F;
+}
+QWidget#tab_4{
+background-color:#1F1F1F;
+}
+QWidget
+{
+border:0;
+}
+QWidget#tab{
+background-color:#1F1F1F;
+}
+</string>
+       </property>
+       <property name="currentIndex">
+        <number>2</number>
+       </property>
+       <widget class="BannaWidget" name="tabBanna">
+        <attribute name="title">
+         <string>1</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <property name="styleSheet">
+         <string notr="true">QWidget#tab_3
+{
+background-color:#1F1F1F
+}</string>
+        </property>
+        <attribute name="title">
+         <string>页</string>
+        </attribute>
+        <widget class="ListWidget" name="widget_2" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>110</y>
+           <width>871</width>
+           <height>421</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true"/>
+         </property>
+        </widget>
+        <widget class="QWidget" name="searchWidget" native="true">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>871</width>
+           <height>111</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLineEdit
+{
+ color:rgb(0, 170, 255)
+ }
+QWidget#searchWidget{
+background-color:#ECAD9E  ;
+color:white;
+border:none;
+}</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,4">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="font">
+               <font>
+                <family>Monotype Corsiva</family>
+                <pointsize>12</pointsize>
+                <italic>true</italic>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">color:rgb(0, 255, 255)</string>
+              </property>
+              <property name="text">
+               <string>搜索点下方</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="9,1,1,1,4">
+            <item>
+             <widget class="MyMaterialAutoComplete" name="searchBox">
+              <property name="styleSheet">
+               <string notr="true"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="MyMaterialFlatButton" name="look">
+              <property name="font">
+               <font>
+                <family>Segoe Print</family>
+                <pointsize>14</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>搜索</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="Bird_label">
+              <property name="styleSheet">
+               <string notr="true">border-image:url(:/Photo/label.svg)</string>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="MyMaterialFlatButton" name="AddLabel">
+              <property name="font">
+               <font>
+                <family>Segoe UI Black</family>
+                <pointsize>14</pointsize>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="cursor">
+               <cursorShape>PointingHandCursor</cursorShape>
+              </property>
+              <property name="text">
+               <string>建立新标签</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+       <widget class="CylinderWidget" name="tab_4">
+        <attribute name="title">
+         <string>页</string>
+        </attribute>
+       </widget>
+       <widget class="Time_record" name="tab_2">
+        <property name="styleSheet">
+         <string notr="true">QWidget#tab_2
+{
+background-color:#1F1F1F
+}</string>
+        </property>
+        <attribute name="title">
+         <string>Tab 2</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>页</string>
+        </attribute>
+        <widget class="QPushButton" name="pushButton">
+         <property name="geometry">
+          <rect>
+           <x>350</x>
+           <y>180</y>
+           <width>231</width>
+           <height>24</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:rgb(0, 255, 255)</string>
+         </property>
+         <property name="text">
+          <string>与go交互的英语单词页面</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="ExcelWidget" name="tab_5">
+        <property name="styleSheet">
+         <string notr="true">QWidget#tab_5{
+background-color:#1F1F1F;
+}</string>
+        </property>
+        <attribute name="title">
+         <string>页</string>
+        </attribute>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyMaterialFlatButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">mymaterialflatbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>Time_record</class>
+   <extends>QWidget</extends>
+   <header location="global">time_record.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>BannaWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">bannawidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ListWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">listwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MyMaterialAutoComplete</class>
+   <extends>QLineEdit</extends>
+   <header location="global">mymaterialautocomplete.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CylinderWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">cylinderwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ExcelWidget</class>
+   <extends>QWidget</extends>
+   <header location="global">excelwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

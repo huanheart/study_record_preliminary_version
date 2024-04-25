@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ExcelWidget</class>
+ <widget class="QWidget" name="ExcelWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>507</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#ExcelWidget{
+background-color:#1F1F1F;
+}
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_5" stretch="0">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,3,2">
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0,0,0,0,0,0">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <pointsize>17</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">color:white</string>
+         </property>
+         <property name="text">
+          <string>导出</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="MyMaterialFlatButton" name="forward">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>向前</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="TimeLabel">
+           <property name="styleSheet">
+            <string notr="true">color:white</string>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="MyMaterialFlatButton" name="backward">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string>向后</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="styleSheet">
+            <string notr="true">color:white
+</string>
+           </property>
+           <property name="text">
+            <string>全部导出?</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QtMaterialToggle" name="AllExport">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true">color:white</string>
+           </property>
+           <property name="text">
+            <string>文件名</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="4,1">
+           <item>
+            <widget class="QtMaterialTextField" name="lineEdit">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="MyMaterialFlatButton" name="Delete">
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>×</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="styleSheet">
+            <string notr="true">color:white</string>
+           </property>
+           <property name="text">
+            <string>文件格式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{
+  color:#666666;
+  font-size:14px;
+  padding: 1px 15px 1px 3px;
+  border:1px solid rgba(228,228,228,1);
+  border-radius:5px 5px 0px 0px;
+} 
+  QComboBox::drop-down {
+      subcontrol-origin: padding;
+      subcontrol-position: top right;
+      width: 15px;
+      border:none;
+  }
+
+QComboBox QAbstractItemView::item{
+	height:36px;
+	color:#666666;
+	padding-left:9px;
+	background-color:#FFFFFF;
+}
+QComboBox QAbstractItemView::item:hover{ 
+  background-color:#409CE1;
+  color:#ffffff;
+}
+QComboBox QAbstractItemView::item:selected{
+  background-color:#409CE1;
+  color:#ffffff;
+}
+
+  QComboBox QAbstractItemView{
+	background:rgba(255,255,255,1);
+    border:1px solid rgba(228,228,228,1);
+    border-radius:0px 0px 5px 5px;
+	font-size:14px;
+    outline: 0px;  
+  }</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Excel文件 (.xlsx)</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4" stretch="0,0">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="styleSheet">
+            <string notr="true">color:white</string>
+           </property>
+           <property name="text">
+            <string>时间块格式</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox_2">
+           <property name="cursor">
+            <cursorShape>PointingHandCursor</cursorShape>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox{
+  color:#666666;
+  font-size:14px;
+  padding: 1px 15px 1px 3px;
+  border:1px solid rgba(228,228,228,1);
+  border-radius:5px 5px 0px 0px;
+} 
+  QComboBox::drop-down {
+      subcontrol-origin: padding;
+      subcontrol-position: top right;
+      width: 15px;
+      border:none;
+  }
+
+QComboBox QAbstractItemView::item{
+	height:36px;
+	color:#666666;
+	padding-left:9px;
+	background-color:#FFFFFF;
+}
+QComboBox QAbstractItemView::item:hover{ 
+  background-color:#409CE1;
+  color:#ffffff;
+}
+QComboBox QAbstractItemView::item:selected{
+  background-color:#409CE1;
+  color:#ffffff;
+}
+
+  QComboBox QAbstractItemView{
+	background:rgba(255,255,255,1);
+    border:1px solid rgba(228,228,228,1);
+    border-radius:0px 0px 5px 5px;
+	font-size:14px;
+    outline: 0px;  
+  }</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>按标签分组</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>按时间分组</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="MyMaterialFlatButton" name="NowExport">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
+         <property name="text">
+          <string>导出</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyMaterialFlatButton</class>
+   <extends>QPushButton</extends>
+   <header location="global">mymaterialflatbutton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QtMaterialToggle</class>
+   <extends>QPushButton</extends>
+   <header location="global">qtmaterialtoggle.h</header>
+  </customwidget>
+  <customwidget>
+   <class>QtMaterialTextField</class>
+   <extends>QLineEdit</extends>
+   <header location="global">qtmaterialtextfield.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

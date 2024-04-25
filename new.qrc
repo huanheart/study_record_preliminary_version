@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Photo/app.ico</file>
+        <file>Photo/image.png</file>
+        <file>Photo/max_normal.png</file>
+        <file>Photo/min_hover.png</file>
+        <file>Photo/min_normal.png</file>
+        <file>Photo/normal_hover.png</file>
+        <file>Photo/normal_normal.png</file>
+        <file>Photo/close_hover.png</file>
+        <file>Photo/close_normal.png</file>
+        <file>Photo/max_hover.png</file>
+        <file>Photo/1.png</file>
+        <file>Photo/2.jpg</file>
+        <file>Photo/3.jpg</file>
+        <file>Photo/4.jpg</file>
+        <file>Photo/5.jpg</file>
+        <file>QSS/stylesheet.qss</file>
+        <file>Photo/hover_blue.png</file>
+        <file>Photo/center_cyan.png</file>
+        <file>Photo/less_than.png</file>
+        <file>Photo/more_than.png</file>
+        <file>Photo/normal_gray.png</file>
+        <file>Photo/Settings.png</file>
+        <file>Photo/Settings_hover.jpg</file>
+        <file>Photo/direction.jpg</file>
+        <file>Photo/point_max.jpg</file>
+        <file>Photo/Point_min.jpg</file>
+        <file>Photo/start.jpg</file>
+        <file>Photo/start_hover.jpg</file>
+        <file>Photo/pause.jpg</file>
+        <file>Photo/pause_hover.jpg</file>
+        <file>Photo/half_star.png</file>
+        <file>Photo/star.png</file>
+        <file>Photo/label.svg</file>
+        <file>Photo/splash.png</file>
+    </qresource>
+</RCC>

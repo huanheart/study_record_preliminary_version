@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>controltreewidget</class>
+ <widget class="QWidget" name="controltreewidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+background-color: #1F1F1F;
+ color: white;
+border: none;
+
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTreeWidget" name="treeWidget">
+       <property name="cursor" stdset="0">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <column>
+        <property name="text">
+         <string>1</string>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/max_hover.png</normaloff>:/Photo/max_hover.png</iconset>
+        </property>
+       </column>
+       <item>
+        <property name="text">
+         <string>轮番欣赏</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Variable Display Semib</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>任务</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>标签总览</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>柱状图分析</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Black</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>导出</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Semibold</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>英语单词</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Semibold</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>测试1</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Semibold</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>测试2</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI Semilight</family>
+          <pointsize>12</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="icon">
+         <iconset resource="new.qrc">
+          <normaloff>:/Photo/image.png</normaloff>:/Photo/image.png</iconset>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="new.qrc"/>
+ </resources>
+ <connections/>
+</ui>

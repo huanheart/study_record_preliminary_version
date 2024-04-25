@@ -1,0 +1,9 @@
+{
+    "AutoConverSation": false,
+    "Number_of_sessions": 5,
+    "Type": 1,
+    "noticeButton": true,
+    "rest_time": 120,
+    "time": 1500,
+    "track_PushButton_state": true
+}

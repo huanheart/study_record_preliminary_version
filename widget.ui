@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1108</width>
+    <height>647</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Widget{
+background-color:#1F1F1F;
+border:0;
+border-radius:10px;
+border-style:solid;
+border-width:2px;
+}</string>
+  </property>
+  <widget class="coolpage" name="column" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1108</width>
+     <height>40</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="controltabwidget" name="widgetTab" native="true">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>40</y>
+     <width>881</width>
+     <height>611</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="controltreewidget" name="widgetTree" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>220</width>
+     <height>601</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>coolpage</class>
+   <extends>QWidget</extends>
+   <header location="global">coolpage.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>controltreewidget</class>
+   <extends>QWidget</extends>
+   <header location="global">controltreewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>controltabwidget</class>
+   <extends>QWidget</extends>
+   <header location="global">controltabwidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
