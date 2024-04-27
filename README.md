@@ -4,7 +4,8 @@ study_record是一个类似workingHours这种帮助你专注以及时间追踪�
 
 图片来源以及思想来源自github的一些项目以及csdn等博客。侵权立刻删
 
-初步版本为2024年1月15号做完的。内容包括如下
+初步版本为2024年1月15号做完的。
+## 内容包括如下
 
 * 1：轮番图欣赏，这个可能针对于该程序没有什么用，主要为个人学习的时候给它加上去的
 
@@ -35,7 +36,7 @@ study_record是一个类似workingHours这种帮助你专注以及时间追踪�
 * bug_1:任务模块中若是初始用户，此时还没有建立内部json信息的用户且没有点过设置的一些内容，直接点击开始按钮会异常崩溃：原因：json文件出错了，可以通过设置来更改焦点会议持续时间和休息时段（还没处理，虽然知道原因了）
 * bug_2:目前窗口比例可能有些不足，标签总览模块中，编辑出现的标签所对应的窗口也很丑，后续会美化界面
 
-* **后续扩展**：
+  ## **后续扩展**：
 * 1：多加学习模块：可以用来背单词等等，将本应用不再只有本地保存的功能，学习模块连上对应的服务器（未完成）
 * 2：以及优化界面，让界面不那么僵硬，提升灵活性（未完成）
 * 3：扩展搜索引擎：做到输入内容的时候实时显示对应符合的标签，而不是需要点击搜索才显示（未完成）
@@ -44,10 +45,20 @@ study_record是一个类似workingHours这种帮助你专注以及时间追踪�
 * 6：柱状图分析模块只能看5天的内容，不能缩小范围以及扩大范围，不够灵活，固然增加日历按钮，选择范围比例，然后显示对应的柱状图信息
 
 
-**注意事项**：当前项目刚开始是没有json文件的，固然需要删除我这边提供的json文件
+## **注意事项**：
+当前项目刚开始是没有json文件的，固然需要删除我这边提供的json文件
 
-**模块展示**：
+## **模块展示**：
 
+![image](https://github.com/huanheart/study_record_preliminary_version/blob/master/show/1.png)
+
+![image](https://github.com/huanheart/study_record_preliminary_version/blob/master/show/2.png)
+
+![image](https://github.com/huanheart/study_record_preliminary_version/blob/master/show/3.png)
+
+![image](https://github.com/huanheart/study_record_preliminary_version/blob/master/show/4.png)
+
+![image](https://github.com/huanheart/study_record_preliminary_version/blob/master/show/5.png)
 
 
 
